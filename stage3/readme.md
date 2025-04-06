@@ -1,8 +1,6 @@
 # Stage 3 
 
-This guide walks you through deploying a sample full-stack application (React frontend + Node backend) on Amazon EKS using Kubernetes manifests.
 
----
 
 ## Project Structure
 
@@ -121,13 +119,6 @@ kubectl get svc
 
 ---
 
-##  Best Practices Followed
-- Config separation (Secrets and ConfigMaps)
-- Probes for availability
-- Resource limits & HPA for scaling
-- NGINX for SPA routing and proxying to backend
-
----
 
 ##  Notes
 - Backend service name used in NGINX config: `http://backend-service:5000`
