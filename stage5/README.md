@@ -1,4 +1,4 @@
-#  Weather ETL Pipeline with AWS (Stage 5)
+#  Weather ETL Pipeline 
 
 This project implements a secure, automated pipeline to fetch weather data from a public API, store it in Amazon S3, and run it periodically via AWS Lambda and EventBridge. API keys are stored securely using Secrets Manager.
 
@@ -7,7 +7,7 @@ This project implements a secure, automated pipeline to fetch weather data from 
 ##  Project Structure
 
 ```
-stage-5-etl-pipeline/
+stage5/
 ├── terraform/
 │   ├── main.tf
 │   ├── variables.tf
